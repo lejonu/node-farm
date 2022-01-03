@@ -104,6 +104,6 @@ const server = http.createServer((req, res) => {
   }
 })
 
-server.listen(9000, "127.0.0.1", () => {
-  console.log("Listing to requests on port 9000")
+server.listen(8000, "127.0.0.1", () => {
+  console.log("Listing to requests on port 8000")
 })
